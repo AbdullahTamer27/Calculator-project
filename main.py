@@ -189,8 +189,7 @@ button_dot = Button(text=".", padx=32, pady=30, command=lambda: button_click("."
 button_dot.grid(row=5, column=2)
 button_dot = Button(text="=", padx=70, pady=30, command=calculate)
 button_dot.grid(row=5, column=3, columnspan=2)
-button_power = Button(text="*", padx=30, pady=30, command=lambda: button_click(" * "))
-button_power.grid(row=1, column=0)
+
 button_clear = Button(text="Clear", padx=20, pady=30, command=clear)
 button_clear.grid(row=2, column=3)
 button_delete = Button(text="Del", padx=25, pady=30, command=delete)
